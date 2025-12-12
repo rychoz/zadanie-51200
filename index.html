@@ -75,10 +75,15 @@
         <section id="contact" class="section">
             <h2>Kontakt</h2>
             <h3>Imię i Nazwisko</h3>
-            <form action="" class="contact-form"><label for="">Imię</label><input type="name" class="input" required><br>
-            <label for="">Temat</label><input type="text" class="input" required><br>
-            <label for="">Wiadomość</label><input type="text" class="input" required><br>
-            <button class="button">Wyślij</button></form>
+            <form action="" class="contact-form">
+            <label for="">Imię</label>
+            <input type="text" name="name" id="name" class="input" required><br>
+            <label for="">Temat</label>
+            <input type="text" name="temat" id="temat" class="input" required><br>
+            <label for="">Wiadomość</label>
+            <textarea type="text" name="message" id="message" class="input" required></textarea><br>
+            <button class="button">Wyślij</button>
+            </form>
          </section>
 </body>
 </html>
